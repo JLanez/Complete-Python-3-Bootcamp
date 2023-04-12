@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T22:57:12.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="k6CVgmG8BmA4fHcSJd5D" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T00:13:31.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oEhvVn9n1LmLXe2O29_j" version="21.1.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="456" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Valid" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="6" value="Valid?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="390" width="98" height="57" as="geometry" />
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" edge="1">
@@ -105,10 +105,33 @@
           <mxGeometry x="210" y="250" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-60" value="Error Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="310" width="80" height="60" as="geometry" />
+          <mxGeometry x="520" y="310" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8lVlhjEjlU-fLV_xGfdB-61" value="For each road segment:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-61" target="8lVlhjEjlU-fLV_xGfdB-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-61" value="For each road segment:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Read in the number of miles&lt;/li&gt;&lt;li&gt;Then read in the speed limit&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="510" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-64" target="8lVlhjEjlU-fLV_xGfdB-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-64" value="Error Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-67" value="Valid?" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="745" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-71" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="745" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-72" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="805" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
