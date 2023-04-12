@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T00:29:06.548Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Z0Np0pA95oLQSLca5p1O" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T00:37:21.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AzqgkaVki58LFUP17CGn" version="21.1.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="456" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3180" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,30 +47,15 @@
         <mxCell id="14" value="Yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="447" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="37" value="project&#xa;complete?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="271" y="1621.5" width="98" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="38" value="create&#xa;final&#xa;report" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="1730" width="159" height="80" as="geometry" />
+        <mxCell id="37" value="Calculation Complete?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="209" y="1430" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1910" width="120" height="30" as="geometry" />
+          <mxGeometry x="260" y="1640" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="41" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="37" edge="1">
+        <mxCell id="41" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitDx=0;exitDy=0;" parent="1" source="8lVlhjEjlU-fLV_xGfdB-93" target="37" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="320" y="1570" as="sourcePoint" />
-            <mxPoint x="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="42" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="37" target="38" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
-            <mxPoint x="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="43" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="38" target="40" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
             <mxPoint x="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -84,7 +69,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="53" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
-          <mxGeometry x="321" y="1680" width="40" height="26" as="geometry" />
+          <mxGeometry x="340" y="1490" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="54" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="37" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
@@ -96,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="55" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="235" y="1624" width="40" height="26" as="geometry" />
+          <mxGeometry x="186" y="1420" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-55" value="&lt;br&gt;		&lt;br&gt;	&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Hello! Welcome to the program that calculates how to take the backroads to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;your home, this program allows you identify how to get home quicker when there is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;traffic on the main roads with an alternate backroad route.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot; title=&quot;Page 1&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;br&gt;				&lt;/div&gt;&lt;br&gt;			&lt;/div&gt;&lt;br&gt;		&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="186" y="110" width="270" height="110" as="geometry" />
@@ -107,8 +92,10 @@
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-60" value="Error Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="310" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8lVlhjEjlU-fLV_xGfdB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-61" target="8lVlhjEjlU-fLV_xGfdB-67">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="700" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-61" value="For each road segment:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Read in the number of miles&lt;/li&gt;&lt;li&gt;Then read in the speed limit&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="510" width="240" height="130" as="geometry" />
@@ -124,55 +111,88 @@
             <mxPoint x="560" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8lVlhjEjlU-fLV_xGfdB-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-67" target="8lVlhjEjlU-fLV_xGfdB-74">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="830" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-67" value="Valid?" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="745" width="80" height="80" as="geometry" />
+          <mxGeometry x="279" y="695" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-71" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="745" width="40" height="30" as="geometry" />
+          <mxGeometry x="350" y="690" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-72" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="805" width="40" height="30" as="geometry" />
+          <mxGeometry x="350" y="760" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8lVlhjEjlU-fLV_xGfdB-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-74" target="8lVlhjEjlU-fLV_xGfdB-76">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="1010" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-74" value="Calculate time it will take to cross the road segments" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="199" y="915" width="240" height="105" as="geometry" />
+          <mxGeometry x="199" y="827" width="240" height="105" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-76" target="8lVlhjEjlU-fLV_xGfdB-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-76" value="Adjust time for stop signs and stop light" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="199" y="1100" width="240" height="105" as="geometry" />
+          <mxGeometry x="199" y="1010" width="240" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="8lVlhjEjlU-fLV_xGfdB-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-78">
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-78" target="8lVlhjEjlU-fLV_xGfdB-87">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="1338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-78" target="8lVlhjEjlU-fLV_xGfdB-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-78" value="Cell Phone Usage?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="279" y="1297.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="279" y="1161" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-80" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1355" width="40" height="30" as="geometry" />
+          <mxGeometry x="350" y="1231" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-81" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1295" width="40" height="30" as="geometry" />
+          <mxGeometry x="350" y="1171" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-87" value="Additional time added&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1307.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1171" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8lVlhjEjlU-fLV_xGfdB-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="1307.5" as="sourcePoint" />
-            <mxPoint x="450" y="960" as="targetPoint" />
+            <mxPoint x="610" y="1170" as="sourcePoint" />
+            <mxPoint x="439" y="880" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="960" />
+              <mxPoint x="610" y="880" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-93" target="8lVlhjEjlU-fLV_xGfdB-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-93" value="Is there Traffic?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-96" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-97" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-101" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="1" source="37" target="8lVlhjEjlU-fLV_xGfdB-92">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="319" y="1480" as="sourcePoint" />
+            <mxPoint x="320" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lVlhjEjlU-fLV_xGfdB-92" target="40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lVlhjEjlU-fLV_xGfdB-92" value="Exact time it takes to get to destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="1530" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
